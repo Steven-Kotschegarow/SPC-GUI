@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPC Webpage</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="./scripts/script.js" defer></script>
+</head>
+<body>
+    <div class="bar-container">
+        <div>
+            <div id="points-div"></div>
+            <div class="bar red">.60</div>
+            <div class="bar yellow">.50</div>
+            <div class="bar green">.40</div>
+            <div class="bar green">.30</div>
+            <div class="bar yellow">.20</div>
+            <div class="bar red">.10</div>
+            <div class="lightbulb" id="lightbulb">💡</div>
+            <div style="border-bottom: 0px;">
+                <label for="code">Enter Measurement</label>
+                <input type='text' id="code" name="code" />
+                <button type="button" onclick="addPoint()">Submit</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
